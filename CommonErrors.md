@@ -2,7 +2,7 @@
 When developing with Azure SDK, we often encounter repeatedly errors, let's catch those, so we dont repeat ourselves 
 on looking for solutions. 
 
-## 
+## Can't find xxx under namespace "Microsoft.xxxx"
 ```C#
 namespace Microsoft.Example.Services
 {
