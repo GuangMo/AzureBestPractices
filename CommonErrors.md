@@ -19,3 +19,11 @@ namespace Example.Services
     ....
 }
 ```
+Alternatively, you can use the "global" keyword in front of the namespace, this would avoid the conflict between parent namespace scope, for instance, the "Azure.Identity" will not be treated under "Microsoft.Azure.Identity". 
+```C#
+namespace Example.Services
+{
+    global::using Azure.Identity;
+    ....
+}
+```
